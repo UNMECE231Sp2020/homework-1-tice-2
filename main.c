@@ -14,14 +14,9 @@ int _Multi_(int x, int y)
 {
 	return x * y;
 }
-int power_funct(int x, int y)
+int power_division(int x, int y)
 {
-	int i, product=1;
-	for(i=1;i<=y;i++)
-	{
-		product*= x;
-	}
-	return product;
+	return x/y;
 }
 int main() {
 	Complex a = {3, 4};
