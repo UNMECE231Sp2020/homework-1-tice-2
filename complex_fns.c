@@ -55,3 +55,8 @@ Complex complex_div(Complex c1, Complex c2) {
 	c.imag /= denom;
 	return c;}
 }
+
+// handler_3((*fptr)(complex)(complex),complex c1, complex c2)
+// 
+
+
