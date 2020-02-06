@@ -19,14 +19,7 @@ Complex complex_conj(Complex c);
 double magnitude(Complex c);
 double phase(Complex c);
 
-/*void three_input_function( struct *complex, struct, struct)
- 
 
-  void two_input_function(function pointer, complex struct)
-
-  */
-
-// void f_handler1( (*fptr)(complex)(complex), complex c1, complex c2)
-// void f_handler2( double (*ftpr) complex, complex c1)
-// 
+// void f_handler1( (*funP)(complex)(complex), complex c1, complex c2)
+// void f_handler2( double (*funP1) complex, complex c1)
 
