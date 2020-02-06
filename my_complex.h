@@ -18,3 +18,11 @@ Complex complex_conj(Complex c);
 
 double magnitude(Complex c);
 double phase(Complex c);
+
+/*void three_input_function( struct *complex, struct, struct)
+ 
+
+  void two_input_function(function pointer, complex struct)
+
+  */
+
