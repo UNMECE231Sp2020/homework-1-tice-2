@@ -26,3 +26,7 @@ double phase(Complex c);
 
   */
 
+// void f_handler1( (*fptr)(complex)(complex), complex c1, complex c2)
+// void f_handler2( double (*ftpr) complex, complex c1)
+// 
+
