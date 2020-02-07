@@ -62,5 +62,6 @@ Complex complex_div(Complex c1, Complex c2) {
 
 void f_handler2(double(*funP1)(Complex), Complex c1)
 {
-	
+	Complex result = funP1(c1);
+	print_complex(result);	
 }
