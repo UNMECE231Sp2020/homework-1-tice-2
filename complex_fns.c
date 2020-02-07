@@ -60,3 +60,9 @@ Complex complex_div(Complex c1, Complex c2) {
 // 
 
 
+ void f_handler1( (*funP)(complex)(complex), complex c1, complex c2));
+{
+}
+ void f_handler2( double (*funP1) complex, complex c1);
+{
+}

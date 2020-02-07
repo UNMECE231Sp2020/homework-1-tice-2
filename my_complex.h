@@ -20,6 +20,6 @@ double magnitude(Complex c);
 double phase(Complex c);
 
 
- void f_handler1( (*funP)(complex)(complex), complex c1, complex c2)
- void f_handler2( double (*funP1) complex, complex c1)
+ void f_handler1( (*funP)(complex)(complex), complex c1, complex c2));
+ void f_handler2( double (*funP1) complex, complex c1);
 
