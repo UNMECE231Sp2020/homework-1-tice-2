@@ -44,13 +44,8 @@ Complex complex_mult(Complex c1, Complex c2) {
 Complex complex_div(Complex c1, Complex c2) {
 	double denom = magnitude(c2)*magnitude(c2);
 	Complex c = complex_mult(c1, complex_conj(c2));
-        //if (denom = 0){
-	//  printf("Denominator is Zero"\n ) 
-	//  else{
-	//
-	// here are some ideas of what i think 
-	//
-	//  while(denom !=0) 
+         
+       	while(denom !=0) 
 	c.real /= denom;
 	c.imag /= denom;
 	return c;}
@@ -61,7 +56,7 @@ Complex complex_div(Complex c1, Complex c2) {
 
 
  void f_handler1( (*funP)(complex)(complex), complex c1, complex c2));
-{
+{     
 }
  void f_handler2( double (*funP1) complex, complex c1);
 {
