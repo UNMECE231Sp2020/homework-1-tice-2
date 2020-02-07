@@ -54,15 +54,15 @@ Complex complex_div(Complex c1, Complex c2) {
 // handler_3((*fptr)(complex)(complex),complex c1, complex c2)
 // 
 
-
- void f_handler1( (*funP)(complex)(complex), complex c1, complex c2));
+ void f_handler1(Complex (*funP)(Complex, Complex), Complex c1, Complex c2);
 {
    funP=complex_add(c1,c2);
    funP=complex_sub(c1,c2);
    funP=complex_mult(c1,c2);
    funP=complex_div(c1,c2);   
 }
- void f_handler2( double (*funP1) complex, complex c1);
+
+void f_handler2(double(*funP1)(Complex), Complex c1);
 {
 	funP=complex_magnitude(c1);
 	funP=complex_phase(c1);
