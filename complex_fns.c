@@ -64,4 +64,6 @@ Complex complex_div(Complex c1, Complex c2) {
 }
  void f_handler2( double (*funP1) complex, complex c1);
 {
+	funP=complex_magnitude(c1);
+	funP=complex_phase(c1);
 }
