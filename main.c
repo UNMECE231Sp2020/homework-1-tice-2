@@ -19,7 +19,7 @@ int main() {
 
 	for(int i=0;i<1;i++)
 	{
-		f_handler2(funp1[i], a);
+		f_handler2(funP1[i], a);
 	}
 
 	return 0;
