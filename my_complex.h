@@ -30,5 +30,5 @@ double phase(Complex c);
  
  * *************************************************************/
  void f_handler1(Complex (*funP)(Complex, Complex), Complex c1, Complex c2);
- void f_handler2(Complex double(*funP1)(complex), complex c1);
+ void f_handler2(double(*funP1)(Complex), Complex c1);
 
