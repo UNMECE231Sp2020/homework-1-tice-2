@@ -45,7 +45,7 @@ Complex complex_div(Complex c1, Complex c2) {
 	double denom = magnitude(c2)*magnitude(c2);
 	Complex c = complex_mult(c1, complex_conj(c2));
          
-       	while(denom !=0) 
+       	while(denom !=0) {
 	c.real /= denom;
 	c.imag /= denom;
 	return c;}
