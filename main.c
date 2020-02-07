@@ -8,20 +8,18 @@ int main() {
 	Complex a = {3, 4};
 	Complex b = {5, 12};
 
-	double(*funP[4])(Complex,Complex,Complex,Complex);
-	double(*funP1[2])(Complex,Complex);
+	Complex (*funP[4])(Complex,Complex);
+	double(*funP1[2])(Complex) = {magnitude, phase};
 
 	
 	for(int i=0; i<3;i++)
 	{
-		funP=funP[i];
-		printf("%d",*funP[i]);	
+		f_handler1(funP[i], a, b);
 	}	
 
 	for(int i=0;i<1;i++)
 	{
-		funP1=funP1[i];
-		printf("/n%d",*funP1[i]);
+		f_handler2(funp1[i], a);
 	}
 
 	return 0;
