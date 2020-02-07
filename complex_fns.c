@@ -56,14 +56,11 @@ Complex complex_div(Complex c1, Complex c2) {
 
  void f_handler1(Complex (*funP)(Complex, Complex), Complex c1, Complex c2)
 {
-   funP=complex_add(c1,c2);
-   funP=complex_sub(c1,c2);
-   funP=complex_mult(c1,c2);
-   funP=complex_div(c1,c2);   
+     Complex result = funP(c1,c2);
+     print_complex(result); 
 }
 
 void f_handler2(double(*funP1)(Complex), Complex c1)
 {
-	funP=complex_magnitude(c1);
-	funP=complex_phase(c1);
+	
 }
