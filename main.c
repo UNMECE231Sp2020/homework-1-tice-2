@@ -8,8 +8,8 @@ int main() {
 	Complex a = {3, 4};
 	Complex b = {5, 12};
 
-	double(*funP)[4](int,int)={complex,complex,complex,complex};
-	double(*funP1)[2](double,double){complex,complex};
+	double(*funP)(complex)[4](int,int)={complex,complex,complex,complex};
+	double(*funP1)[2](complex)(double,double){complex,complex};
 
 	
 	for(int i=0; i<3;i++)
